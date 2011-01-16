@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE idea-plugin PUBLIC
+  "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
+<idea-plugin version="2" url="http://idea-linessorter.googlecode.com/">
+  <id>org.sylfra.idea.plugins.linessorter</id>
+  <name>Lines Sorter</name>
+  <description><![CDATA[
+<html>
+  Add <em>Sort Lines</em> action in <em>Edit</em> menu to sort selected lines or whole file if selection is empty.
+</html>
+    ]]></description>
+  <version>1.0</version>
+  <vendor email="syllant@gmail.com"
+          url="http://idea-revu.linessorter.com/">Sylvain FRANCOIS
+  </vendor>
+  <change-notes><![CDATA[
+<html>
+  <b>1.0</b> (01/16/2011)
+  <ul>
+    <li>Initial release
+  </ul>
+</html>
+]]></change-notes>
+  <idea-version since-build="90.10000"/>
+
+  <actions>
+    <group id="linessorter.sort.group">
+      <separator/>
+      <action id="linessorter.sort"
+              class="org.sylfra.idea.plugins.linessorter.SortAction"
+              text="Sort Lines"
+              description="Sort selected lines or whole file if selection is empty">
+        <keyboard-shortcut keymap="$default" first-keystroke="alt shift l"/>
+      </action>
+      <add-to-group group-id="EditMenu" anchor="last"/>
+    </group>
+  </actions>
+
+</idea-plugin>
