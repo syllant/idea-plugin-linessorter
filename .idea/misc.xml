@@ -55,6 +55,9 @@
     <option name="referencePos" value="0" />
     <option name="showLabels" value="true" />
   </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
     <find-history />
