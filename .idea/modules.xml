@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LinesSorter.iml" filepath="$PROJECT_DIR$/LinesSorter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idea-plugin-linessorter.iml" filepath="$PROJECT_DIR$/idea-plugin-linessorter.iml" />
     </modules>
   </component>
 </project>
