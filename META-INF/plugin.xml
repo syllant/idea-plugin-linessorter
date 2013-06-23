@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE idea-plugin PUBLIC
   "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
-<idea-plugin version="2" url="http://idea-linessorter.googlecode.com/">
+<idea-plugin version="2" url="https://github.com/syllant/idea-plugin-linessorter">
   <id>org.sylfra.idea.plugins.linessorter</id>
   <name>Lines Sorter</name>
+  <category>Editor</category>
   <description><![CDATA[
 <html>
   Add <em>Sort Lines</em> action in <em>Edit</em> menu to sort selected lines or whole file if selection is empty.
 </html>
     ]]></description>
-  <version>1.0</version>
-  <vendor email="syllant@gmail.com" url="http://idea-linessorter.googlecode.com/">Sylvain FRANCOIS</vendor>
+  <version>1.0.1</version>
+  <vendor email="syllant@gmail.com" url="https://github.com/syllant">Sylvain FRANCOIS</vendor>
   <change-notes><![CDATA[
 <html>
+  <b>1.0.1</b> (06/23/2013)
+  <ul>
+    <li>Support for all IntelliJ Platform Products
+  </ul>
+
   <b>1.0</b> (01/16/2011)
   <ul>
     <li>Initial release
@@ -20,6 +26,8 @@
 </html>
 ]]></change-notes>
   <idea-version since-build="90.10000"/>
+
+  <depends>com.intellij.modules.lang</depends>
 
   <actions>
     <group id="linessorter.sort.group">
