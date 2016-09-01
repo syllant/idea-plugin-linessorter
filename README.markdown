@@ -1,8 +1,9 @@
-**Lines Sorter** is a plugin for Intellij IDEA which sorts lines in text files (available from IDEA built-in Plugin Manager).
+**Lines Sorter** is a plugin for Intellij-based products that sorts lines in text files (available from the Plugin Manager).
 
-Just select lines and call either *Edit->Sort Lines* menu, or *Alt+ Shift+L* shortcut. When no lines are selected, whole file is sorted.
+Just select lines and call either *Edit->Sort Lines* menu, or *Alt+ Shift+L* shortcut. When no lines are selected, the whole file is sorted.
 
 ##Notes
-* sort is only case-insensitive and ascending. Sort feature could use some more advanced options, but I don't need them now.
-* when file ends with empty lines (only one line separator on the line), these empty lines are preserved at the end (they are not included in sort)
-* see [Property Sorter](http://plugins.intellij.net/plugin/?idea&id=4055) plugin to sort property files smarter
+* Sort is only case-insensitive and ascending
+* When the file ends with empty lines (only one line separator on the line), these empty lines are preserved at the end (they are not included in sort)
+* See [Property Sorter](https://plugins.jetbrains.com/plugin/4055) plugin to sort property files in a smarter way
+* See [String Manipulation ](https://plugins.jetbrains.com/plugin/2162) for more advanced features about string operations. Should sort features have been implemented at the time, my plugin would not have existed!
